@@ -1,0 +1,1 @@
+# watch out component a  , b ,c files
