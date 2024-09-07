@@ -13,6 +13,12 @@ import Counter from './components/memo-hook/Counter';
 // // export const countContext = React.createContext()
 import FocusInput from './components/useref/FocusInput';
 import ClassTimer from './components/useref/ClassTimer';
+import HookTimer from './components/useref/HookTimer';
+import DocTitleOne from './components/custom-hooks/DocTitleOne';
+import DocTitleTwo from './components/custom-hooks/DocTitleTwo';
+import CounterOne from './components/custom-hooks/CounterOne';
+import CounterTwo from './components/custom-hooks/CounterTwo';
+import UserForm from './components/custom-hooks/UserForm';
 
 
 // const initialState = 0
@@ -48,9 +54,14 @@ function App() {
   {/* <ParentComponent/> */}
 
   {/* <Counter/> */}
-  <FocusInput/>
+  {/* <FocusInput/>
   <ClassTimer />
-
+  <HookTimer/> */}
+    {/* <DocTitleOne/>
+    <DocTitleTwo/> */}
+    {/* <CounterOne />
+    <CounterTwo   /> */}
+    <UserForm />
     </div>
   
   );
